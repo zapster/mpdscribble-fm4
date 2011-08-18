@@ -38,3 +38,18 @@ If you find a bug, please file a bug report at MPD's bug tracker:
 
 You can contact me via email <max@duempel.org> or via IRC in #mpd on
 freenode.
+
+
+FM4 Patch
+---------
+
+This fork of the original mpdscribble aims to detect streams of the
+FM4 readio station, correct the scrambled tag and thus enable
+mpdscribbler to send the correct infos to last.fm/libre.fm.
+
+FM4 is a radio station at the Austrian Broadcasting Corporation (ORF).
+There are tags embedded in the official stream but unfortunatally
+all information is encoded in the title tag.
+
+http://fm4.orf.at (german/english)
+
